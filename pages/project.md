@@ -1,16 +1,16 @@
 ---
-title: ENABLING
-description: "Resilient Human-Robot Collaboration in Mixed-Skill Environments"
-background: /assets/theme/images/header-img.jpg
+title: RoSA
+description: "Robot System Assisten"
+background: /assets/theme/images/participants.jpg
 permalink: /project/
 ---
 
 {: .alert .alert-warning}
  
-![image](/enabling/assets/theme/images/project_img.jpg)
-
 ## Motivation
 Modern production and service environments increasingly rely on flexible robot teams. However, intuitive control and collaboration with such systems remain a challenge, especially for non-expert users. Most existing interfaces are either overly complex or limited to single input modes. The motivation behind RoSA is to create a natural, flexible, and efficient system that enables any user to engage with multiple robots using familiar interaction forms—without needing technical training.
+
+![image](/rosa/assets/theme/images/ui.png)
 
 ## Goals
 

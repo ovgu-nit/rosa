@@ -1,0 +1,60 @@
+---
+title: "Face Recognition and Tracking Framework for Human–Robot Interaction"
+description: A real-time face recognition and tracking system for intuitive HRI, integrating lightweight CNNs and ROS.
+background: /assets/theme/images/rosa_header.png
+image: /assets/theme/images/study.png
+author: "Aly Khalifa, Ahmed A. Abdelrahman, Dominykas Strazdas, Jan Hintz, Thorsten Hempel, Ayoub Al-Hamadi"
+categories: [Publication, Journal, RoSA]
+conference: "**Applied Sciences, 2022**"
+tags: [Journal, Face Recognition, ROS, HRI, RoSA]
+---
+
+## Real-Time Face Recognition and Tracking for Human–Robot Interaction
+
+This study presents a **lightweight, ROS-integrated face recognition and tracking framework** for real-time human–robot interaction (HRI), designed to handle unconstrained environments including occlusions, lighting variations, and pose changes.
+
+The framework is implemented as part of the **RoSA (Robot System Assistant)**, supporting intuitive interaction with industrial robots via **facial, speech, and gesture input**. Built on **RetinaFace** and **ArcFace** and combined with **SORT-based face tracking**, it significantly improves recognition reliability and system performance.
+
+### Key Highlights:
+- **ArcFace + MobileFaceNet** for robust feature embeddings with high recognition precision.
+- **RetinaFace with MobileNet** enables fast and accurate detection and alignment.
+- **SORT tracking** integrates Kalman filtering and Hungarian matching for efficient multi-face tracking.
+- Achieves **~35 FPS**, enabling real-time operation on ROS-powered robotic systems.
+- Tested on **RoSA’s real-time experiments** and **Wizard-of-Oz videos** with **11 and 36 subjects**, respectively.
+
+### Evaluation:
+- Average precision: **99%**, recall: **95%**, F-score: **97%**
+- Online evaluation shows tracking boosts recognition rate from **76% → 94%**
+- Dataset validation on ChokePoint confirms consistent improvements in recognition and speed.
+
+### Practical Impact:
+By assigning IDs to tracked faces and fusing them with body tracking, RoSA:
+- Avoids identity mix-ups,
+- Enables seamless multi-user interaction,
+- Enhances UX in collaborative robotic tasks.
+
+This work lays the foundation for integrating **perceptual identity** into intelligent HRI systems and scales to real-world industrial applications.
+
+![](/assets/theme/images/study.png)
+
+---
+
+## Fulltext Access  
+[https://doi.org/10.3390/app12115568](https://doi.org/10.3390/app12115568)
+
+---
+
+## Citing
+
+```bibtex
+@article{RoSA_Face2022,
+  author    = {Khalifa, Aly and Abdelrahman, Ahmed A. and Strazdas, Dominykas and Hintz, Jan and Hempel, Thorsten and Al-Hamadi, Ayoub},
+  title     = {Face Recognition and Tracking Framework for Human--Robot Interaction},
+  journal   = {Applied Sciences},
+  volume    = {12},
+  number    = {11},
+  pages     = {5568},
+  year      = {2022},
+  doi       = {10.3390/app12115568},
+  publisher = {MDPI}
+}
