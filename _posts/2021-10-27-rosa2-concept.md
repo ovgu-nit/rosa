@@ -6,7 +6,7 @@ image: /assets/theme/images/concept.png
 author: "Dominykas Strazdas, Jan Hintz, Aly Khalifa, Ayoub Al-Hamadi"
 categories: [Publication, Conference, RoSA]
 conference: "**IEEE International Conference on Human-Machine Systems (ICHMS), 2021**"
-tags: [Conference, IEEE, RoSA, HRI, Multimodal, Telerobotics]
+tags: [Conference, IEEE, RoSA, HRI, Multimodal, Telerobotics, Best-Presentation-Award]
 ---
 
 ## Toward Natural Multimodal Human–Robot Interaction with RoSA
